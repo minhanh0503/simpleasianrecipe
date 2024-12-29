@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Selection Page - EECS 1012: Winter 2024 Project</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="project.css" title="style" />
+    <script src="client_side.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Feels Good Asian Food</h1>
+      <h2>Location: Toronto CA</h2>
+      <div id="logopic">
+        <a href="selection.html">
+          <img src="pics/logo.png" alt="Logo Button" id="logobutton" />
+        </a>
+      </div>
+    </header>
+
+    <div id="selectionPage">
+      <div id="selectText">
+        <p>
+          To help you get your perfect recipe, choose your ingredients and
+          tools:
+        </p>
+      </div>
+      <select id="ingredientSelect">
+        <option value="Lamb">Lamb</option>
+        <option value="Chicken">Chicken</option>
+        <option value="Fish">Fish</option>
+        <option value="Milk">Milk</option>
+        <option value="Strawberry">Strawberry</option>
+      </select>
+      <select id="toolSelect">
+        <option value="Pan/Pot">PanPot</option>
+        <option value="Steamer">Steamer</option>
+        <option value="Oven">Oven</option>
+        <option value="Refrigerator">Refrigerator</option>
+      </select>
+
+      <a href="result.html">
+        <button onclick="generateRecipe()" id="generateButton">Generate</button>
+      </a>
+    </div>
+
+    <div id="pictures">
+      <img src="pics/fruits.png" width="300px" height="300px" />
+      <img src="pics/meat.png" width="300px" height="300px" />
+    </div>
+
+    <footer>
+      <p>Minh Anh Nguyen, Boni Li, Yingqi Li</p>
+      <nav>Company: Wizard</nav>
+    </footer>
+  </body>
+</html>

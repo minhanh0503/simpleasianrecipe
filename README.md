@@ -1,5 +1,5 @@
 # simpleasianrecipe
-This a simple recipe made with Javascript and CSS that was in EECS1012
+This a simple recipe made with Javascript, HTML and CSS that was in EECS1012
 This web is shows the recipe matches with your chosen ingredients
 
 ![image](https://github.com/user-attachments/assets/de83c80a-b4cb-4856-8d47-d5e87115b7c8)
